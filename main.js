@@ -14,10 +14,8 @@ for (var i = 0; i < arr.length; i++) {
     select.insertBefore(option, select.lastChild);
 }
 
-// add a change event listener to handle the language title
 select.addEventListener('change', changeHeading);
 
-// trigger a change event in order to display the selected language's title
 select.dispatchEvent(new Event('change'));
 
 function changeHeading() {
