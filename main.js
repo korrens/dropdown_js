@@ -1,5 +1,5 @@
-var select = document.getElementById("select");
-var arr = [
+const select = document.getElementById("select");
+const arr = [
     { id: 1, language: 'Latvian', title: 'Labdien!' },
     { id: 2, language: 'English', title: 'Hello!' },
     { id: 3, language: 'Russian', title: 'Добрый день!' }
